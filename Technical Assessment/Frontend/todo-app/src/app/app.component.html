@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+  <span>ToDo App</span>
+</mat-toolbar>
+
+<div class="main-container">
+  <!-- Left side: Create Task -->
+  <div class="left-panel">
+    <app-task-create (taskAdded)="onTaskAdded()"></app-task-create>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- Right side: Task List -->
+  <div class="right-panel">
+    <app-task-list #taskList></app-task-list>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+.task-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.task-card {
+  width: 100%;
+}
+button:hover {
+  background-color: rgb(75, 59, 199) !important;
+  color: white !important;
+}

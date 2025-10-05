@@ -1,0 +1,18 @@
+# Build and bin/obj
+bin/
+obj/
+
+# User settings
+*.user
+*.vs
+
+# Docker
+*.log
+*.pid
+
+# Node modules (frontend)
+Frontend/todo-app/node_modules/
+Frontend/todo-app/dist/
+
+# Database data
+sql_data/

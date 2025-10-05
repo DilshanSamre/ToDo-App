@@ -1,0 +1,26 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 64px); 
+  padding: 20px;
+  gap: 10px;
+}
+
+.left-panel {
+  flex: 1.25;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.right-panel {
+  flex: 2;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.divider {
+  width: 3px;
+  background-color: #1976d2; 
+}
