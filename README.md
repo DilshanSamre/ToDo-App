@@ -49,7 +49,7 @@ docker-compose up --build
 
 Frontend (Angular): http://localhost:4200
 
-Backend API (.NET): http://localhost:5000/api/tasks
+Backend API (.NET): http://localhost:7241/api/tasks
 
 Database (MSSQL): localhost:1433, user=sa, password=Your_password123
 
@@ -105,4 +105,4 @@ You can also deploy each container separately (backend + frontend + db) to Azure
 
 👨‍💻 Author
 
-Your Name – Full Stack Developer
+Dilshan Samarakoon – Full Stack Developer
